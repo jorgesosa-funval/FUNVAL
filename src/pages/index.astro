@@ -1,10 +1,14 @@
 ---
+import About from "../components/About.astro";
 import Courses from "../components/Courses.astro";
 import HeroSection from "../components/HeroSection.astro";
+import NavBar from "../components/NavBar.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
+	<NavBar/>
 	<HeroSection />
 	<Courses/>
+	<About/>
 </Layout>

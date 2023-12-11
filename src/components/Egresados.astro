@@ -1,0 +1,30 @@
+---
+
+---
+
+<section class="relative courses-section p-5 grid grid-cols-2 place-items-center">
+  <div class="pb-24">
+    <h1 class="text-center font-semibold text-2xl py-3">Egresados</h1>
+    <div class="w-72 h-80 shadow-lg bg-white rounded-md"></div>
+  </div>
+  
+  <div class="pt-24">
+    <div class="w-80 h-80 shadow-lg rounded-full bg-white "></div>
+    <h1 class="text-center font-semibold text-2xl py-3">Egresados</h1>
+  </div>
+</section>
+
+<style>
+  .courses-section::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    background-image: url("fondos/waveMain.svg");
+    background-size: cover;
+    z-index: -1;
+  }
+</style>
